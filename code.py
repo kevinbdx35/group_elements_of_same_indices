@@ -5,7 +5,9 @@ index = 0
 for i in range(len(input_lists[0])):
     output_lists.append([])
     for j in range(len(input_lists)):
-        output_lists[index].append(input_lists[j][ index])
+        output_lists[index].append(input_lists[j][index])
     index = index + 1
-a, b, c = output_lists[0], output_lists[1], output_lists[2]
-print(a, b, c)
+
+if __name__ == '__main__':
+    a, b, c = output_lists[0], output_lists[1], output_lists[2]
+    print(a, b, c)
